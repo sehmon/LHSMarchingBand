@@ -1,0 +1,114 @@
+/** CSS **/
+*{
+	border: 1px solid red;
+}
+
+.intro {
+	/* background-color: #D35400; */
+	text-align: center;
+	height: 25%;
+	background-image: lhsmb.jpg;
+}
+
+p {
+	font-size: 18px;
+	color: #1A0F00;
+}
+
+body {
+	font-family: 'Open Sans', 'Verdana';
+	background-color: #EEEEEE;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	/*  */
+	color: white;
+	font-size: 25px;
+}
+
+.headerimage {
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+.image {
+
+}
+
+#instructor {
+	padding:30px;
+}
+
+#instructor h4 {
+	text-align: center;
+}
+
+#map_canvas {
+	width: 50%;
+	height: 400px;
+	background-color: black;
+	display: inline;
+	float: left;
+
+}
+
+.directors {
+	background-color: #D35400;
+	text-align: center;
+	padding: 10px;
+}
+
+.about {
+	background-color: #D35400;
+	text-align: center;
+	padding: 10px 10px 10px 0;
+}
+
+.officersheaders {
+	background-color: #D35400;
+	text-align: center;
+	padding: 10px;
+} 
+
+.aboutimage {
+	height: 50%;
+	width: 50%;
+	text-align: left;
+	display: inline;
+	float: left;
+	border-radius: 200px;
+    -moz-border-radius: 200px;
+    -khtml-border-radius: 200px;
+    -webkit-border-radius: 200px;
+}
+
+.aboutparagraph {
+	display: block;
+	margin-left: 50%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+hr {
+	width: 66%;
+}
+
+.aboutdiv {
+	overflow: auto;
+}
+
+.aboutcontent {
+	padding: 20px;
+}
+
+.officersheader {
+	background-color: #D35400;
+	text-align: center;
+	padding: 10px;
+}
+
