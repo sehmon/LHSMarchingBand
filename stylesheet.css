@@ -1,6 +1,6 @@
 /** CSS **/
 *{
-	border: 1px solid red;
+ /* border: 1px solid red; */
 }
 
 .intro {
@@ -23,9 +23,8 @@ body {
 }
 
 h2 {
-	/*  */
 	color: white;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 .headerimage {
@@ -40,10 +39,21 @@ h2 {
 
 #instructor {
 	padding:30px;
+	overflow: auto;
+	position: relative;
+	display: table; 
 }
 
 #instructor h4 {
 	text-align: center;
+	font-size: 24px;
+	rowspan: 2;
+}
+
+#instructor p {
+	display: table-cell;
+    vertical-align: middle;
+	overflow: auto;
 }
 
 #map_canvas {
@@ -88,14 +98,14 @@ h2 {
 .aboutparagraph {
 	display: block;
 	margin-left: 50%;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 hr {
-	width: 66%;
+	width: 70%;
 }
 
 .aboutdiv {
@@ -112,3 +122,37 @@ hr {
 	padding: 10px;
 }
 
+.headshotright {
+	height: 300px;
+	float: right;
+	border-radius: 300px;
+}
+
+.headshotleft {
+	height: 300px;
+	float: left;
+	border-radius: 300px;
+}
+
+.officers {
+}
+
+.officertable {
+	vertical-align: middle;
+	text-align: center;
+	margin: 50px auto;
+
+}
+
+.officershr {
+	colspan: 3;
+}
+
+#officerimage {
+	height: 200px;
+	border-radius: 100px;
+}
+
+td > div {
+	padding: 20px;
+}
